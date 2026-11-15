@@ -1,84 +1,50 @@
-﻿# Minea Company
+﻿<div align="center">
 
-## Identificación y Estado
+# Minea Company
 
-Minea Company es un sitio web corporativo diseñado para mostrar productos, gestionar contactos y ofrecer una experiencia de usuario profesional para clientes y equipos comerciales. Está enfocado a una audiencia empresarial que necesita una presencia digital moderna, accesible y fácil de administrar.
+**Tienda en línea para gomitas artesanales de tamarindo y chile.**
 
-[![Vercel](https://img.shields.io/badge/Vercel-Deployed-black?logo=vercel&logoColor=white)](https://minea05-company.vercel.app/)
+[**Ver sitio**](https://minea05-company.vercel.app) · Proyecto freelance
 
-## Acceso Directo (Demo)
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0F172A?logo=tailwindcss&logoColor=38BDF8)
 
-- Enlace en vivo: https://minea05-company.vercel.app/
+<img src="docs/img/inicio-laptop.jpg" width="72%" alt="Minea en computadora" />
+<img src="docs/img/inicio-celular.jpg" width="21%" alt="Minea en celular" />
 
-> El proyecto ya está desplegado en Vercel y accesible directamente sin necesidad de descargar el código.
+</div>
 
----
+Sitio para un emprendimiento local de dulces artesanales: presenta la marca y sus productos, y permite **armar un pedido que se envía por WhatsApp**, sin necesidad de pasarela de pago.
 
-## Funcionalidades
+> **El negocio ya no opera.** Yo alojaba el sitio en Vercel; el código se publica con permiso de los dueños y los datos de contacto se reemplazaron por ejemplos.
 
-- UX responsivo: diseño móvil-first que se adapta a cualquier pantalla.
-- Modo oscuro/claro: soporte visual moderno para mejorar la lectura y experiencia del usuario.
-- SEO optimizado: estructura de contenido y metaetiquetas pensadas para mejorar el posicionamiento.
-- Formulario operativo: contactos y solicitudes que están listos para integrarse con backend o servicios de correo.
-- Gestión de contenidos con MDX/Blog: permite publicar y editar contenido dinámico y entradas de blog con formato enriquecido.
+## Funciones
 
----
+- **Inicio, Nosotros y Productos:** identidad de marca, historia y colecciones con fotos.
+- **Pedidos:** el cliente elige productos y cantidades, y se genera un mensaje de WhatsApp con el resumen.
+- **Contacto:** mapa y formas de contacto.
+- Diseño adaptable a celular y computadora, con navegación entre páginas sin recargar (React Router).
 
-## Stack Tecnológico
+## Capturas
 
-La aplicación utiliza una arquitectura moderna basada en:
+<img src="docs/img/productos-laptop.jpg" width="100%" alt="Catálogo de productos" />
 
-- Next.js 14 para la lógica de la aplicación y el enrutado.
-- Tailwind CSS para el diseño rápido, consistente y responsive.
-- Vercel para el despliegue continuo y la entrega del sitio en producción.
+## Tecnología
 
----
+**React 18 · TypeScript · Vite · Tailwind CSS · shadcn/ui · React Router · Vercel**
 
-## Guía de Configuración Local
+<details>
+<summary><b>Cómo correrlo</b></summary>
 
-### Requisitos
-
-- Node.js 18.x o superior
-- npm 9.x o superior
-
-### Instalación
-
-```sh
-# Clona el repositorio
-git clone <https://github.com/ZeroFuann-FS/Minea05Company.git>
-cd Minea
-
-# Instala dependencias
-npm install
-
-# Ejecuta el servidor de desarrollo
+```bash
+git clone https://github.com/ZeroFuann-FS/minea-company.git
+cd minea-company && npm install
 npm run dev
 ```
+</details>
 
 ---
 
-## Arquitectura del Código
-
-El proyecto sigue un estándar de organización similar a Next.js App Router, separando claramente las capas de la aplicación:
-
-- `/app` o `/src/app`: rutas y páginas principales.
-- `/components`: componentes de interfaz reutilizables y elementos UI.
-- `/lib`: lógica de apoyo, helpers y funciones compartidas.
-- `/content` o `/data`: contenidos, entradas de blog y archivos MDX.
-- `/public`: recursos estáticos como imágenes y archivos descargables.
-
-Esta estructura ayuda a mantener el proyecto escalable y fácil de mantener, con lógica separada del diseño y del contenido.
-
----
-
-## Despliegue (DevOps)
-
-El flujo de trabajo se basa en Integración Continua (CI). Cada vez que se suben cambios a `main`, Vercel reconstruye y despliega automáticamente el sitio.
-
-- `main` = producción estable
-- Pull requests en ramas feature se prueban antes de fusionar
-- Vercel actualiza el sitio en cada merge a `main`
-
----
-
-> Aunque la página fue vendida originalmente, se cuenta con permiso para usarla libremente y compartir el código bajo los términos de esta licencia.
+© 2026 ZeroFuann · Código publicado como portafolio. La marca Minea pertenece a sus dueños. Ver [LICENSE](LICENSE).
